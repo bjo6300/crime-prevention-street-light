@@ -54,6 +54,6 @@ LCD 내용이 "Fire!!!"로 변경된다. <br>
 Distributed under the APACHE 2.0 License. See `LICENSE` for more information.
 
 ## Contributor
-* [배준일](https://github.com/bjo6300) <br>
-* [김지희](https://github.com/zzih45)
+* [bjo6300](https://github.com/bjo6300) <br>
+* [zzih45](https://github.com/zzih45)
 
