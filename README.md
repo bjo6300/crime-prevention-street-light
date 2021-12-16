@@ -19,7 +19,7 @@
 * 11번 핀 : 3색 LED - Blue
 
 
-## 실행
+## Execute
 
 ### 낮
 ![image](https://user-images.githubusercontent.com/70627982/146411956-b4dbad60-34e5-459c-af28-218e8e241658.png) 
