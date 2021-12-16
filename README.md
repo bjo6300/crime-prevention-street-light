@@ -34,11 +34,10 @@ LCD는 시간과 가로등 ID가 5초마다 주기적으로 보여준다.<br>
 밤이면 LED가 초록불로 켜진다. (조도센서, 3색 LED) <br>
 LCD는 시간과 가로등 ID가 5초마다 주기적으로 보여준다. (타이머 인터럽트) <br>
 
-### 스위치를 누를 경우
+### 방범 스위치를 누를 경우
 ![image](https://user-images.githubusercontent.com/70627982/146412627-3998beaf-afa7-4656-b267-03598c13971a.png)
 <br>
 사이렌 소리가 울리며 LED가 빨간색으로 변하고 깜빡인다. (수동부저)<br>
-블루투스 모듈을 이용해 핸드폰으로 "SOS from (가로등 ID)"가 전송된다. (HC-06) <br>
 LCD 내용이 "SOS!!!"로 변경된다. (LCD) <br> 
 상황이 종료되면 다시 LED가 초록불로 바뀐다. <br>
 
@@ -46,9 +45,14 @@ LCD 내용이 "SOS!!!"로 변경된다. (LCD) <br>
 ![image](https://user-images.githubusercontent.com/70627982/146413016-da5a46ee-e113-44ab-a483-2e3e32acd3e3.png)
 <br>
 사이렌 소리가 울리며 LED가 빨간색으로 변하고 깜빡인다. (수동부저) <br>
-블루투스 모듈을 이용해 핸드폰으로 "Fire from (가로등 ID)"가 전송된다. (HC-06) <br>
 LCD 내용이 "Fire!!!"로 변경된다. (LCD) <br>
 상황이 종료되면 다시 LED가 초록불로 바뀐다. <br>
+
+### 블루투스 통신
+![image](https://user-images.githubusercontent.com/70627982/146416846-bc30d4a8-3c27-4f12-8574-509953575d6d.png)
+<br>
+방범 스위치를 누르면 블루투스 모듈을 이용해 핸드폰으로 "SOS from (가로등 ID)"가 전송된다. (HC-06) <br>
+화재가 발생하면 블루투스 모듈을 이용해 핸드폰으로 "Fire from (가로등 ID)"가 전송된다. (HC-06) <br>
 
 ## License
 
