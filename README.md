@@ -5,7 +5,8 @@
 ## Built With
 * Arduino Uno
 * HC-06(Bluetooth module)
-* ![image](https://user-images.githubusercontent.com/70627982/146410248-dd1a5820-29f3-4516-b9dd-abc517086a54.png)
+* bluetooth controler using smartphone <br> 
+![image](https://user-images.githubusercontent.com/70627982/146410248-dd1a5820-29f3-4516-b9dd-abc517086a54.png)
 
 ## Pin Setting
 * 2번 핀 : 블루투스
