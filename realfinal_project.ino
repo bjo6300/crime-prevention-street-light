@@ -126,7 +126,7 @@ void loop()
   int sensorReading = analogRead(A1);
   Serial.println(sensorReading);
   int range = map(sensorReading, sensorMin, sensorMax, 0, 3);
-  
+  Serial.println(range);
     switch(range){
     case 0:
       Serial.println("** Close Fire **");
@@ -134,7 +134,7 @@ void loop()
     case 1:
       Serial.println("** Distant Fire **");
       // 블루투스 송신
-      mySerial.write("Fire from JJ1718");         
+      mySerial.println("Fire from JJ1718");         
 
       // lcd 표시
       lcd.clear();
@@ -178,7 +178,6 @@ void loop()
   int switchVal = digitalRead(4); // 4번 핀 버튼 입력 값 받기
   
   if(switchVal == LOW){
-    // SOS 블루투스 송신
     
     switchmode = 1; // 스위치 킨 모드
     switchflag++;
@@ -191,7 +190,7 @@ void loop()
     lcd.print("SOS!!!");
     
     if(switchmode == 1 && switchflag == 1){
-        mySerial.println("SOS from JJ1718");
+        mySerial.println("SOS from JJ1718"); // SOS 블루투스 송신
         for(int i=0;i<1;i++){
            // SOS 소리, led 깜빡임
            SOS_sound();
