@@ -1,6 +1,6 @@
 # 방범 가로등(crime prevention street light)
 
-### 화재와 범죄를 예방한다.
+### 화재와 범죄를 예방하는 아두이노 프로젝트
 
 ## Built With
 * Arduino Uno
